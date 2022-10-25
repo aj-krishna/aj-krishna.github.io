@@ -1,11 +1,11 @@
 a {
-  color: #1772d0;
+  color: #D73F09;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #FFB500;
   text-decoration: none;
 }
 
