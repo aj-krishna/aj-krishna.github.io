@@ -1,3 +1,7 @@
+body {
+  font-family: Courier, Verdana, Helvetica, sans-serif;
+}
+
 a {
   color: #D73F09;
   text-decoration: none;
@@ -15,29 +19,20 @@ th,
 tr,
 p,
 a {
-  font-family: Courier , Verdana, Helvetica, sans-serif;
   font-size: 14px
 }
 
-strong {
-  font-family: Courier, Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
 heading {
-  font-family: Courier, Verdana, Helvetica, sans-serif;
   font-size: 26px;
 }
 
 papertitle {
-  font-family: Courier, Verdana, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #D73F09;
 }
 
 name {
-  font-family: Courier, Verdana, Helvetica, sans-serif;
   font-size: 32px;
 }
 
