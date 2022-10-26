@@ -11,6 +11,7 @@
 	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
   <script src="js/scramble.js"></script>
+  <script src="js/hidebibs.js"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD31EV6XCR"></script>
   <script>
@@ -85,7 +86,20 @@
               <br>
               <a href="https://www.american-cse.org/csce2021/conferences-ICAI" target="_blank">
               <em>The  International Conference on Artificial Intelligence, 2021</em> </a>
-              <p style="text-align:center"><a href="assets/pspnet_paper.pdf" target="_blank">Paper</a> | <a href="bib/pspnet.bib" target="_blank">Bibtex</a></p>
+              <p style="text-align:center"><a href="assets/pspnet_paper.pdf" target="_blank">Paper</a> | <a href="javascript:togglebib('pspnet_bib')">Bibtex</a></p>
+              <div class="codeblock" id="pspnet_bib"  style="display:none">
+                <pre><code>
+@inproceedings{pspnet,
+author = {Krishna, Ajay and Gu, Xiang and Larkin, Andrew and Hystad, Perry and Chen, Lizhong},
+title = {A Distributed Scheme for Accelerating and Scaling PSPNet},
+booktitle = {Advances in Artificial Intelligence and Applied Cognitive Computing},
+year = {2021},
+month = {07},
+pages = {},
+publisher = {Springer}
+}
+              </code></pre>
+              </div>
               <p>Advances in deep learning based image processing techniques have led to their adoption for a wide range of applications,
               and in tow with these developments is a dramatic increase in the availability of high quality datasets. With this comes
               the need to accelerate and scale deep learning applications in order to keep up with the size of data and best use
