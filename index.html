@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -49,8 +49,8 @@
               </p>
               <p style="text-align:center">
                 <!-- <a href="">CV</a> &nbsp/&nbsp -->
-                <a href="https://scholar.google.com/citations?user=baXnNDoAAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/ajayosu/" target="_blank">GitHub</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=baXnNDoAAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp|&nbsp
+                <a href="https://github.com/ajayosu/" target="_blank">GitHub</a> &nbsp|&nbsp
                 <a href="https://www.linkedin.com/in/aj-krishna/" target="_blank">LinkedIn</a>
               </p>
             </td>
@@ -66,16 +66,44 @@
               <p>
                 I'm interested in computer vision, machine learning, uncertainty estimation, and active learning. More specifically I am working on active learning schemes that explicitly incorporate the unique constraints of video data. To this end I am working on developing uncertainty estimation techniques tailored to vision tasks on video datasets.
               </p>
-              <p style="text-align:right">Credits: <a href="https://jonbarron.info/" target="_blank">Template</a>, <a
-                  href="https://jeffdonahue.com/" target="_blank">Scrambler</a></p>
+              
             </td>
           </tr>
         </tbody></table>
 
-<!-- 
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 					
-
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="assets/pspnet_fig.png" alt="pspnet infer times" width="300" height="300">
+            </td>
+            <td width="75%" valign="middle">
+                <papertitle>A Distributed Scheme for Accelerating and Scaling PSPNet</papertitle>
+              <br>
+              <strong>Ajay Krishna</strong>, Xiang Gu, Andrew Larkin, Perry Hystad, Lizhong Chen
+              <br>
+              <a href="https://www.american-cse.org/csce2021/conferences-ICAI">
+              <em>The  International Conference on Artificial Intelligence, 2021</em> </a>
+              <p style="text-align:center"><a href="assets/pspnet_paper.pdf" target="_blank">Paper</a> | <a href="bib/pspnet.bib" target="_blank">Bibtex</a></p>
+              <p>Advances in deep learning based image processing techniques have led to their adoption for a wide range of applications,
+              and in tow with these developments is a dramatic increase in the availability of high quality datasets. With this comes
+              the need to accelerate and scale deep learning applications in order to keep up with the size of data and best use
+              available hardware resources. In this paper, we propose a useful scheme to enable accelerated and distributed deployment
+              of PSPNet inferences, which allows scaling across disparate compute clusters with recourse for system instability and
+              heterogeneity of resources. The systemic incorporation of multiprocessing paradigms and pipelining also allows the
+              scheme to mitigate the time penalties of multiscale inference and significantly improves total inference times when used
+              on extremely large datasets. The use of this distributed scheme to process close to 150,000 Google Street View images as
+              part of a public health study has demonstrated excellent promise in addressing issues of deployment, maintenance, crash
+              recovery, and dataset management at scale
+              </p>
+              
+            </td>
+          </tr>
+          
+          </tbody>
+          </table>
+<!-- 
           <tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -118,32 +146,19 @@
               We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling.
               </p>
             </td>
-          </tr>
+          </tr> -->
 
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/clean_promo.jpg" alt="clean-usnob" width="160" height="160">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing">
-                <papertitle>Cleaning the USNO-B Catalog Through Automatic Detection of Optical Artifacts</papertitle>
-              </a>
-              <br>
-              <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
-              <br>
-              <em>The Astronomical Journal</em>, 135, 2008
-              <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
-              <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
-            </td>
-          </tr>
-
-        </tbody></table> -->
+          
 
         
       </td>
     </tr>
   </table>
+  <footer style="width:100%;max-width:1000px;margin-right:auto;margin-left:auto;">
+    <p style="text-align:right">Credits: <a href="https://jonbarron.info/" target="_blank">Template</a>, <a
+        href="https://jeffdonahue.com/" target="_blank">Scrambler</a></p>
+  </footer>
 </body>
 
 </html>
