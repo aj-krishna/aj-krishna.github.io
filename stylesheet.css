@@ -27,7 +27,8 @@ td,
 th,
 tr,
 p,
-a {
+a,
+pre {
   font-size: 14px;
   text-align: justify;
 }
